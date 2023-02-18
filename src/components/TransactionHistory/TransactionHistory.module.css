@@ -21,8 +21,16 @@ th {
     text-transform: uppercase;
 }
 
-tr:nth-child(even) {
+tr {
+transition: background-color .3s cubic-bezier(0.22, 0.68, 0, 1.71),
+}
+
+tr:nth-child(2n) {
     background-color: #ecf2ff;
+}
+
+tr:hover, tr:focus {
+    background-color: #e5d1fa;
 }
 
 .type {
