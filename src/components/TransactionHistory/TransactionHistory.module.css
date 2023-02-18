@@ -1,0 +1,30 @@
+.transaction {
+margin: 100px auto;
+width: 600px;
+background-color: #fff;
+padding: 30px;
+border: 2px solid #e5d1fa;
+border-collapse: collapse;
+}
+
+th,
+td {
+    height: 50px;
+    text-align: center;
+    color: #6d7178;
+}
+
+th {
+    background-color: #e3dffd;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf2ff;
+}
+
+.type {
+    text-transform: capitalize;
+}
